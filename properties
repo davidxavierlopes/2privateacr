@@ -1,0 +1,15 @@
+LOCATION="westeurope"
+RESOURCEGROUP1="acr-rg"
+ACR1NAME="dxglprivateacr"
+SKU="Premium"
+VNET="pvtacr-vnet"
+SUBNET="default"
+DNSZONE="privatelink.azurecr.io"
+DNSLINK="pvtacrlink"
+CONNNAME="acrConnection"
+PVTEPNAME="privateendpoint"
+RESOURCEGROUP2="acr2-rg"
+ACR2NAME="dxglprivateacr2"
+VMNAME=myVM
+ADDRESSPREFIX1=10.0.0.0
+ADDRESSPREFIX2=10.1.0.0
